@@ -1,0 +1,142 @@
+Converting GML script: ${project_dir}\scripts\view_xcenter\view_xcenter.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Font ft_debug has been converted to font family Segoe MDL2 Assets (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\obj_tittle_scarga\Draw_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_control\Alarm_11.gml
+Converted builtin - line 2: view_angle[0] = 0 -> __view_set( e__VW.Angle, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_control\Step_1.gml
+Converted builtin - line 15: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_xview = 0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 20: view_xview = (room_width - view_wview) -> __view_set( e__VW.XView, 0, (room_width - view_wview) )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 21: view_yview = (room_height - view_hview) -> __view_set( e__VW.YView, 0, (room_height - view_hview) )
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 16: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 25: view_angle[0] = (irandom_range(-10, 10) * .10) -> __view_set( e__VW.Angle, 0, (irandom_range(-10, 10) * .10) )
+Converted description /// @description CAMERA
+Converted builtin - line 15: view_xview[0] = (__view_get( e__VW.XView, 0 ) * 4 + (xx - __view_get( e__VW.WView, 0 ) / 2)) / 5 -> __view_set( e__VW.XView, 0, (__view_get( e__VW.XView, 0 ) * 4 + (xx - __view_get( e__VW.WView, 0 ) / 2)) / 5 )
+Converted builtin - line 16: view_yview[0] = (__view_get( e__VW.YView, 0 ) * 4 + (yy - __view_get( e__VW.HView, 0 ) / 2)) / 5 -> __view_set( e__VW.YView, 0, (__view_get( e__VW.YView, 0 ) * 4 + (yy - __view_get( e__VW.HView, 0 ) / 2)) / 5 )
+Converted builtin - line 20: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_control\Step_0.gml
+Converted builtin - line 40: background_x[0] = (view_xview[0] * .87) -> __background_set( e__BG.X, 0, (view_xview[0] * .87) )
+Converted builtin - line 41: background_y[0] = (view_yview[0] * .80) - 112 -> __background_set( e__BG.Y, 0, (view_yview[0] * .80) - 112 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 40: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 41: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_control\Draw_0.gml
+Converted builtin - line 33: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 60: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 60: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 34: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 60: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 60: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 60: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 60: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_blatt\Step_2.gml
+Converted description /// @description BLATT SPRITES AND ANIMATIONS
+
+Converting GML script: ${project_dir}\objects\obj_blatt\Step_0.gml
+Converted description /// @description BLATT STATES AND MOVEMENTS
+
+Converting GML script: ${project_dir}\objects\obj_blatt_bullet\Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_wavor\Step_0.gml
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 29: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 34: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description IA
+
+Converting GML script: ${project_dir}\rooms\rm_tittle_screen\RoomCreationCode.gml
+Converted builtin - line 1: background_hspeed[0] = -0.5 -> __background_set( e__BG.HSpeed, 0, -0.5 )
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'midi_great_highway' - setting to default audio group
+Missing audiogroup for sound: 'midi_tittle_screen' - setting to default audio group
+Missing audiogroup for sound: 'midi_heliport' - setting to default audio group
+Missing audiogroup for sound: 'wav_enemie_die' - setting to default audio group
+Missing audiogroup for sound: 'wav_charge_electrowave' - setting to default audio group
+Missing audiogroup for sound: 'wav_electrowave_move' - setting to default audio group
+Missing audiogroup for sound: 'wav_electrowave_move_2' - setting to default audio group
+Missing audiogroup for sound: 'wav_hurt' - setting to default audio group
+Missing audiogroup for sound: 'wav_hurt_2' - setting to default audio group
+Missing audiogroup for sound: 'wav_hurt_3' - setting to default audio group
+Missing audiogroup for sound: 'wav_menu_continue' - setting to default audio group
+Missing audiogroup for sound: 'wav_menu_enter' - setting to default audio group
+Missing audiogroup for sound: 'wav_menu_exit' - setting to default audio group
+Missing audiogroup for sound: 'wav_menu_newgame' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_charged' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_charged_shoot' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_dash' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_die' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_dispersive_shoot' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_dispersive_shoot_2' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_dispersive_shoot_3' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_electrowave' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_electrowave_shoot' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_fireflame' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_jump' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_land' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_pounch' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_shoot' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_suit_change' - setting to default audio group
+Missing audiogroup for sound: 'wav_player_wall_skid' - setting to default audio group
+Missing audiogroup for sound: 'wav_om_erend_hand_smash' - setting to default audio group
+Missing audiogroup for sound: 'wav_om_erend_hand_return' - setting to default audio group
+Missing audiogroup for sound: 'wav_om_erend_hand_towards' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'sound/sound_isplaying.gml'
+Added compatibility script 'sound/sound_loop.gml'
+Added compatibility script 'sound/sound_play.gml'
+Added compatibility script 'sound/sound_stop.gml'
+Added compatibility script 'sound/sound_stop_all.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

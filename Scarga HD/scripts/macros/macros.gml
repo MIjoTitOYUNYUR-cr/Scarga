@@ -1,0 +1,11 @@
+#macro BLATT_INTRO 0
+#macro BLATT_STAND 1
+#macro BLATT_WALK 2
+#macro BLATT_JUMP 3
+#macro BLATT_WALLSLIDE 4
+#macro BLATT_WALLJUMP 4.5
+#macro BLATT_FALL 5
+#macro BLATT_DASH 6
+#macro BLATT_SHOOT 7
+#macro BLATT_CHARGED 7.5
+#macro BLATT_DIE 8
